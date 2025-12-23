@@ -1,0 +1,16 @@
+Testing add_abs on 5 and 10 produces output:
+15
+Testing add_abs on 0 and 7 produces output:
+7
+Testing add_abs on -8 and -4 produces output:
+12
+Testing add_abs on -2 and 0 produces output:
+2
+Testing add_abs on -3 and 6 produces output:
+3
+Testing add_abs on 9 and -11 produces output:
+2
+Testing add_abs on 0 and 0 produces output:
+0
+Testing add_abs on -5 and 2 produces output:
+3

@@ -1,0 +1,15 @@
+/: 
+1. dev
+2. home
+
+/usr:
+1. games
+2. share
+
+/usr/bin:
+1. miniterm
+2. zmore
+
+/etc:
+1. auto.smb
+2. rc3.d

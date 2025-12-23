@@ -1,0 +1,32 @@
+1. Count of lines containing the word vampire (lowercase) in dracula.txt
+grep -c vampire HW3/task2/dracula.txt
+Output: 18
+
+2. Line numbers and the lines that match "Transylvania"
+grep -n Transylvania  HW3/task2/dracula.txt
+
+Output:
+141:regarding Transylvania; it had struck me that some foreknowledge of the
+145:Transylvania, Moldavia and Bukovina, in the midst of the Carpathian
+154:In the population of Transylvania there are four distinct nationalities:
+896:“We are in Transylvania; and Transylvania is not England. Our ways are
+1000:also that there is a chapel of old times. We Transylvanian nobles love
+1173:questions on Transylvania history, and he warmed up to the subject
+1686:of them in Hungary and Transylvania, who are almost outside all law.
+2220:from Transylvania. He is well, and will be returning in about a week. I
+7687:Can you tell me what went before your going to Transylvania? Later on I
+9157:had not known Jonathan’s experience in Transylvania I could not have
+10209:experience in Transylvania. I think the feeling was common to us all,
+12040:some clue which I could understand out of my experience in Transylvania;
+12842:to his Castle in Transylvania. I know it so well, as if a great hand of
+12903:“As I knew that he wanted to get back to Transylvania, I felt sure that
+15407:In the summer of this year we made a journey to Transylvania, and went
+
+3. Count the words in both dracula.txt and dubliners.txt
+wc HW3/task2/*.txt
+
+Output:
+15849  164351  890391 HW3/task2/dracula.txt
+   8281   70595  405520 HW3/task2/dubliners.txt
+  24130  234946 1295911 total
+
